@@ -1,0 +1,111 @@
+body {
+    background: #F2EAE2;
+    font-size: 100%;
+}
+
+/* CARD */
+
+.card {
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+    margin: 3em auto;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* ASIDE */
+
+p,
+.old_price {
+    font-family: 'Montserrat', sans-serif;
+    color: #6C7289;
+    line-height: 23px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1,
+.new_price {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 16px 32px;
+}
+
+.p_top {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    letter-spacing: 5px;
+    margin: 32px 32px 16px 32px;
+}
+
+h1 {
+    color: #1C232B;
+    margin: 0 32px;
+}
+
+.description {
+    font-size: 14px;
+    margin: 16px 32px;
+}
+
+.new_price {
+    color: #3D8168;
+    margin-right: 16px;
+}
+
+.old_price {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+/* BUTTON */
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    width: 236px;
+    height: 48px;
+    color: white;
+    background: #3D8168;
+    border: none;
+    border-radius: 10px;
+    margin: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover,
+button:active {
+    background: #1A4032;
+    cursor: pointer;
+}
+
+.icon {
+    width: 14.39px;
+    height: 16px;
+    margin-right: 16px;
+}
