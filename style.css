@@ -19,7 +19,7 @@ aside {
     flex-direction: column;
 }
 
-img {
+.bottle {
     max-width: 300px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -76,8 +76,9 @@ h1 {
 
 .old_price {
     font-size: 13px;
-    text-decoration: line-through;
 }
+
+.uppercase { text-transform: uppercase; }
 
 /* BUTTON */
 
