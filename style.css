@@ -105,6 +105,13 @@
     font-size: 0.875rem; /*14/16*/
     line-height: 1.066875rem; /*17.07/16*/
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons {
+    margin-right: 0.725625rem; /*11.61/16*/
   }
 
   button:active,
