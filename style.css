@@ -30,6 +30,10 @@
     width: 18.75rem; /*300/16*/
   }
 
+  .images_mobile {
+    display: none;
+  }
+
   .aside {
     margin: 2rem; /*32/16*/
   }
@@ -106,5 +110,49 @@
   button:active,
   button:hover {
     background: #1A4032;
+  }
+
+  /*----MEDIA QUERIES----*/
+
+  @media screen and (max-width:640px) {
+    main {
+        width: 343px;
+        height: 611px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images {
+        display: none;
+    }
+    
+    .images_mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .aside {
+        margin: 1.5rem;
+    }
+
+    .top_p {
+        margin-bottom: 0.75rem;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    .two_p {
+        margin-bottom: 1.5rem;
+    }
+
+    .price {
+        margin-bottom: 1.25rem;
+    }
+
+    button {
+        width: 18.4375rem; /*295/16*/
+    }
   }
 
